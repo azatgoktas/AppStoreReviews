@@ -26,6 +26,7 @@
 		345AD13024C6EE64004E2EE1 /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		345AD13124C6EE64004E2EE1 /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		345AD13224C6EE64004E2EE1 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		8EA1E11D2C31DE8B0090B479 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		345AD11A24C6EDD9004E2EE1 /* AppStoreReviews */ = {
 			isa = PBXGroup;
 			children = (
+				8EA1E11D2C31DE8B0090B479 /* Networking */,
 				345AD13224C6EE64004E2EE1 /* DetailsViewController.swift */,
 				345AD12F24C6EE64004E2EE1 /* FeedViewController.swift */,
 				345AD13124C6EE64004E2EE1 /* Review.swift */,
