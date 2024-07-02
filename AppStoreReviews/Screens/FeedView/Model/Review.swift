@@ -24,3 +24,15 @@ struct Review {
         return "\(stars) (ver: \(version))"
     }
 }
+
+extension Review: Equatable {
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        return lhs.id == rhs.id
+    }
+}
+
+extension Review: Hashable {
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+}
